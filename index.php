@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 p-5">
-                <form action="" method="GET">
+                <form action="./badworse.php" method="GET">
                     <div class="w-50">
                         <label for="paragraph">Scrivi qui il tuo paragrafo</label>
                         <textarea class="form-control" name="paragrafo" id="paragraph" placeholder="Scrivi..."></textarea>
