@@ -21,8 +21,9 @@
 
                     <div class="form-group mt-5">
                         <div class="w-25">
-                            <label for="text">Scrivi qui la parola da censurare</label>
-                            <input class="form-control" type="text" name="badworse" id="text" placeholder="Censura">
+                            <label for="text">Scrivi qui una parola da censurare</label>
+                            <input class="form-control" type="text" name="badworse" id="text" 
+                            placeholder="Censura" minlength="4" required>
                             <button class="form-control bg-primary mt-3" type="submit">Submit</button>
                         </div>
                     </div>
