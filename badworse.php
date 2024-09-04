@@ -19,7 +19,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12 p-5">
-
+                <h1>
+                    Questo è il tuo testo censurato
+                </h1>
+                <p> <?php echo $paragrafo ?> </p>
+                <h6>Il tuo testo è lungo: <?php echo $lenght ?> </h6>
             </div>
         </div>
     </div>
