@@ -4,3 +4,12 @@ Gestire il tutto con due file diversi. Il primo file dovrà permettere all’ute
 - Il secondo file riceverà la richiesta ed eseguirà queste operazioni: ****- stampare a schermo il paragrafo e la sua lunghezza
 
 - stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare
+
+Scomposizione del problema:
+
+Creare un index.php che permetta di inviare una richiesta
+    creare un form all'interno dell'index con un paragrafo e una parola da censurare
+
+Creare un secondo file che permetta la ricezione della richiesta e invii una risposta all'utente
+    sostituire con tre aterischi la parola da censurare
+    una volta fatto ciò stampare a schermo i dati inseriti dall'utente, 
